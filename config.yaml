@@ -3,7 +3,7 @@ region: us-east-1
 function_name: dlx-auth-merge
 handler: service.handler
 description: Merge authority records
-runtime: python3.9
+runtime: python3.8
 # role: lambda_basic_execution
 
 # S3 upload requires appropriate role with s3:PutObject permission
