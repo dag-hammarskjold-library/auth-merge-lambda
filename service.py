@@ -7,7 +7,6 @@
 #   Payload=b'{"gaining_id": 1, "losing_id": 2, "user": "username"}'
 # )
 
-from unittest.mock import NonCallableMagicMock
 from boto3 import client
 from dlx.scripts import auth_merge
 
