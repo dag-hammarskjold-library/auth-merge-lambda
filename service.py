@@ -14,7 +14,7 @@ def handler(event, context):
         if _ not in event.keys(): raise Exception('event dict missing one or more required keys: connect, gaining_id, losing_id, user')
 
     auth_merge.run(
-        connect=event['connection_string'],
+        connect=event['connect'],
         gaining_id=event['gaining_id'],
         losing_id=event['losing_id'],
         user=event['user'],
