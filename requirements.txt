@@ -1,1 +1,3 @@
-dlx @ git+https://github.com/dag-hammarskjold-library/dlx@d2d51e60f475800b915319233c7061605e7341d9
+boto3==1.24.85
+dlx @ git+https://github.com/dag-hammarskjold-library/dlx@2bc84452248066658a5b258e7bc28a356e201b85
+python-lambda==11.8.0
